@@ -3,23 +3,21 @@
 */
 .accordeon {
     display: flex;
+    gap: 10px;
 }
 
 details {
     position: relative;
+    transition: 1s ease;
 }
 
-details [open] {
+details[open] {
+ margin-right: 175px;
+}
+
+details[open] div {
     position: absolute;
-    top: 0;
-    left: 0;
-}
-
-details>div {
-    position: relative;
     left: 130px;
-    top: -85px;
+    top: 0;
     width: 175px;
-    margin-right: 140px;
-   
 }
