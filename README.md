@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom :Araldi
+- prénom :Théo
+- URL Netlify :https://incredible-daffodil-904188.netlify.app
 
 # Travail
 
